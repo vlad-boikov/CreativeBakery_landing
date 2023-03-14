@@ -1,0 +1,16 @@
+.container {
+  padding: 0 16px;
+
+  @media (min-width: 1200px) {
+    max-width: 1192px;
+    margin: 0 auto;
+  }
+
+  @include onTablet {
+    padding: 0 44px;
+  }
+
+  @include onDesctop {
+    padding: 0 44px;
+  }
+}
